@@ -13,33 +13,7 @@ header{
     color: white;
 }
 
-/*
-nav{
-    color: #000000;
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    height: 45px;
-    width: 100%;
-    align-items: center;
-    border-bottom: 10px solid #AAA4A8;
-    font-family: "Gill Sans", sans-serif;
-    font-weight: bold;
-    font-size: 17px;
-}
-
-nav li {
-    list-style-type: none;
-    align-items: center;}
-
-nav ul {
-    margin-left: auto;
-    align-items: center;
-    display: flex;
-    width: 1000px;
-    flex-direction: row;
-    justify-content: space-between;
-}*/
-
+/* Navigation */
 .topnav{
     overflow: hidden;
     background-color: white;
@@ -69,6 +43,7 @@ nav ul {
     display: none;
 }
 
+/* Logo principal */
 #logol{
     margin-left: 50px;
     margin-top: -6vh;
@@ -78,6 +53,7 @@ nav ul {
     width: 170px;
 }
 
+/*Titre de la zone 3 */ 
 #titre{
     display: flex;
     font-size: 70px;
@@ -90,6 +66,7 @@ nav ul {
     font-family: "Gill Sans", sans-serif;
 }
 
+/*Zone 3*/
 #zone3{
     background-size: cover;
     background-image: url(img/slider-1.jpg);
@@ -99,12 +76,14 @@ nav ul {
     margin-bottom: 10px;
 }
 
+/* Logos dans la zone 3 (Worldpress, Prestashop...) */
 #logosites{
     margin-top: 50px;
     float: right;
     margin-right: 30px;
 }
 
+/*Paragraphes de la zone 3 */
 #paragraphe{
     float: left;
     margin-left: 150px;
